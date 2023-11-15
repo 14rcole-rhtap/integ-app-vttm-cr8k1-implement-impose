@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacbs-test-project-goia
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/integration1-hyph-tenant/integ-app-vttm/hacbs-test-project-goia@sha256:19403c0143449633c0b7de83d880f28c0fc5366176186724f4c41b9818286443
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
