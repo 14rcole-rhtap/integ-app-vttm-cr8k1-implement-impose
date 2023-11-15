@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-goia
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rycole-appstudio/integration1-hyph-tenant/integ-app-vttm/hacbs-test-project-goia@sha256:19403c0143449633c0b7de83d880f28c0fc5366176186724f4c41b9818286443
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
